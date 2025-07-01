@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Html</title>
+</head>
+<body>
+    <div style="width: 600px;">
+    <h1 style="text-align: center;">Create account</h1><br><br>
+    <hr>
+    <br><br>
+    <form action="/submit">
+        <label for="firstname">*First Name: </label>
+        <input type="text" name="firstname" placeholder="Enter Your firstname" required>
+
+        <label for="lastname">*Last name: </label>
+        <input type="text" name="lastname" placeholder="Enter Your lastname"><br><br>
+
+        <label for="email">*Email: </label>
+        <input type="email" name="email" style="width: 75</label>%;" placeholder="Enter your e-mail id"><br><br>
+
+        <label for="password">*Enter password</label>
+        <input type="password" name="password" placeholder="choose a strong password" required>
+
+        <label for="password">*Confirm password</label>
+        <input type="password" name="password" placeholder="Choose a strong password"> <br><br>
+
+        Gender: <br>
+        <label for="gender"><input type="radio" name="gender" value="male">Male</label>
+        <label for="gender"><input type="radio" name="gender" value="male">Female</label><br><br>
+
+        Hobbies: <br>
+        <label for="hobby"><input type="checkbox" name="hobby" value="music">Music</label>
+        <label for="hobby"><input type="checkbox" name="hobby" value="sports">Sports</label>
+        <label for="hobby"><input type="checkbox" name="hobby" value="travel">Travel</label>
+        <label for="hobby"><input type="checkbox" name="hobby" value="movies">Movies</label>
+        <br><br>
+
+        <label for="incomesource">Source of income: 
+            <select name="incomesource">
+                <option value="employed">Employed</option>
+                <option value="Freelance">Freelance</option>
+                <option value="busniess">Busniess</option>
+                <option value="unemployed">Unemployed</option>
+            </select>
+        </label>
+
+        <label for="income">Income<input type="range" step="1000" min="0" max="1000000" value="20000" name="income"></label>20k <br><br>
+        Upload profile picture: <br>
+        <label for="profile">choose file: <input type="file"></label>
+       <label for="age"> Age: <input type="number" min="0" max="120" name="age"></label><br>
+        <label for="bio">Bio: <br><textarea name="bio" rows="4" cols="30"></textarea></label>
+
+
+    </form>
+    </div>
+</body>
+</html>
