@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form using Table</title>
+</head>
+<body>
+    <form action="/submit">
+    <table border="2">
+        <tr>
+            <td colspan="2"><center><h3>HTML forms</h3></center></td>
+        </tr>
+        <tr>
+            <td>Select Your Favourite colour: &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+            <td><input type="color" name="color"></td>
+        </tr>
+        <tr>
+            <td>Birthdate: </td>
+            <td><input type="date" name="dob"></td>
+        </tr>
+        <tr>
+            <td>Birthdate with Time: </td>
+            <td><input type="datetime-local" name="dobtime"></td>
+        </tr>
+        <tr>
+            <td>Email: </td>
+            <td><input type="email" name="email">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;</td>
+        </tr>
+        <tr>
+            <td>Birthdate with month & Year: </td>
+            <td><input type="month" name="dobmonthyear"></td>
+        </tr>
+        <tr>
+            <td>Quantity (between 1:5):</td>
+            <td><input type="number" min="0" max="5" name="quantity"></td>
+        </tr>
+        <tr>
+            <td>Points: </td>
+            <td><input type="range" step="0.5" min="1" max="10" name="points"></td>
+        </tr>
+        <tr>
+            <td>Search Google: </td>
+            <td> <input type="search" name="search"></td>
+        </tr>
+        <tr>
+            <td>Telephone: </td>
+            <td> <input type="tel" name="telephone"></td>
+        </tr>
+        <tr>
+            <td>Add your homepage: </td>
+            <td><input type="url" name="homepage"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
